@@ -1,0 +1,8 @@
+Acoustic Guitar by JGK V3.1 crash-fix build
+
+Changes:
+- Gives V3 its own VST3 identity (bundle id + plugin code) so FL Studio does not confuse it with V2.
+- Uses a V3-only APVTS state tree and ignores incompatible older wrapper state.
+- Adds defensive state validation.
+- Uses a fixed-size editor for the first stable release to avoid host-resize edge cases.
+- Keeps the approved UI, chord engine, strum/fingerpick/percussion modes, scratch, palm mute, capo, patterns and controls.

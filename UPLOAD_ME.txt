@@ -1,0 +1,11 @@
+UPLOAD THE CONTENTS OF THIS FOLDER TO THE ROOT OF YOUR GITHUB REPOSITORY.
+
+Important root files/folders:
+- .github/
+- Assets/
+- Source/
+- CMakeLists.txt
+- README.md
+- THIRD_PARTY_SAMPLES.md
+
+The GitHub Actions build should start automatically after the commit.
